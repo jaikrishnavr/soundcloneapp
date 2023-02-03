@@ -11,7 +11,7 @@ function Card({ data }) {
 
     return (
         <div className={style.cardWrapper}>
-            <img src={data.artworkUrl} className={style.poster} />
+            <img src={data.artworkUrl} className={style.poster} alt=""/>
             <div className={style.details}>
                 <div className={style.name}>
                     <h5>{data.user.username}</h5>
